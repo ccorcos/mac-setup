@@ -72,3 +72,11 @@ Then restart the dock to see the changes:
     killall Dock
 
 Also, if you use jrnl, make sure you set the path, and I like to use TextEdit so set your ~/.jrnl_config JSON to `"editor": "open -W -n -a TextEdit"`
+
+
+## Other Repos
+
+These scripts make use of the following two repositories for setting up Terminal and Atom:
+
+- https://github.com/ccorcos/atom-editor-settings
+- https://github.com/ccorcos/prezto
