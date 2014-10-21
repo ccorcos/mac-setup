@@ -49,6 +49,7 @@ brew install graphicsmagick
 brew install trash
 brew install wget
 brew install geoip
+brew install spark
 
 sudo easy_install pip
 sudo pip install sympy
