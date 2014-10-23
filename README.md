@@ -20,6 +20,8 @@ Install these Apps fromt the App Store
 - iPhoto
 - iMovie
 
+Also manually install [Import.io](http://import.io) so you can make web parser API's.
+
 Open up System Preferences and setup some basic preferences and you Mail accounts.
 
 ## Automated Stuff

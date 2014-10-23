@@ -50,6 +50,7 @@ brew install trash
 brew install wget
 brew install geoip
 brew install spark
+brew install httpie
 
 sudo easy_install pip
 sudo pip install sympy
