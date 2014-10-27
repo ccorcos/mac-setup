@@ -10,9 +10,8 @@ sudo -v
 # Reopen windows after ⌘ + Q
 defaults write com.apple.Preview ApplePersistenceIgnoreState -bool yes
 
-
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName “chets-mbp”
+sudo scutil --set ComputerName chets-mbp
 
 # Disable the sound effects on boot
 # sudo nvram SystemAudioVolume=" "

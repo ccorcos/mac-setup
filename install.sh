@@ -51,6 +51,8 @@ brew install wget
 brew install geoip
 brew install spark
 brew install httpie
+# brew install octave
+
 
 sudo easy_install pip
 sudo pip install sympy
@@ -59,6 +61,8 @@ sudo pip install Theano
 sudo pip install Pygments
 sudo pip install prompt-toolkit
 sudo pip install jrnl
+sudo pip install -U numpy scipy scikit-learn skdata
+sudo pip install requests
 
 brew cask install atom
 git clone https://github.com/ccorcos/atom-editor-settings.git ~/.atom
