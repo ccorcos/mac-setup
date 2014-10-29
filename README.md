@@ -49,6 +49,8 @@ First run `install.sh`. This will give you, among other things:
 ### Zsh Setup
 First, you will have to open zsh from Terminal with `zsh`. It may prompt you for setup, but you and skip with `q`. Then run `setup_zsh.sh`. This will install all of my [custom Prezto settings](https://github.com/ccorcos/prezto) including themes, aliases, paths, etc.
 
+This will also setup a .vimrc file.
+
 ### OS X Defaults
 
 There are a variety of preferences that cannot be set from System Preferences. For example, persisting windows after quitting an application and showing hidden files. Run `osx_defaults.sh` to set these settings.
