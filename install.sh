@@ -34,6 +34,9 @@ brew cask install skype
 brew cask install recordit
 brew cask install virtualbox
 brew cask install mactex
+brew cask install imageoptim
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-csv suspicious-package
+brew cask install spectacle
 
 brew install git
 git config --global user.name "Chet Corcos"
