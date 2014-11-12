@@ -88,8 +88,8 @@ These scripts make use of the following two repositories for setting up Terminal
 
 ## PyPI
 
-If you use pythong and upload packages you'll want to create a `~/.pypirc` file
-so you can `python setup.py upload` etc. 
+If you use python and upload packages you'll want to create a `~/.pypirc` file
+so you can `python setup.py upload` etc.
 
 ```
 [pypirc]
@@ -99,4 +99,13 @@ username:your_awesome_username
 password:your_awesome_password
 ```
 
+Also, don't forget to run `sphinx-quickstart` to setup your prefs.
 
+# Npm
+
+If you use npm, don't forget to register your username, etc.:
+
+    npm set init.author.name "Chet Corcos"
+    npm set init.author.email "ccorcos@gmail.com"
+    npm set init.author.url "http://www.chetcorcos.com"
+    npm adduser

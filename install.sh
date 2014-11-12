@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 # make sure you've already install the commandline tools
 # you can do this with `xcode-select --install`
 
@@ -37,7 +36,7 @@ brew cask install mactex
 brew cask install imageoptim
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-csv suspicious-package
 brew cask install spectacle
-brew cask install node-webkit
+# brew cask install node-webkit
 
 brew install git
 git config --global user.name "Chet Corcos"
@@ -57,6 +56,9 @@ brew install spark
 brew install httpie
 # brew install octave
 
+# npm pacakges
+npm install -g coffee-script
+npm install -g less
 
 sudo easy_install pip
 sudo pip install sympy
@@ -67,13 +69,5 @@ sudo pip install prompt-toolkit
 sudo pip install jrnl
 sudo pip install -U numpy scipy scikit-learn skdata
 sudo pip install requests
-
-brew cask install atom
-git clone https://github.com/ccorcos/atom-editor-settings.git ~/.atom
-
-
-npm install -g coffee-script
-npm install -g less
-
-
-brew install zsh
+sudo pip install sphinx
+sudo pip install speedtest-cli
