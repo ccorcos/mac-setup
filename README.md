@@ -51,6 +51,8 @@ First, you will have to open zsh from Terminal with `zsh`. It may prompt you for
 
 This will also setup a .vimrc file.
 
+This will also setup a `~/bin` directory initialized with some [helpful
+binaries](https://github.com/ccorcos/binaries).
 ### OS X Defaults
 
 There are a variety of preferences that cannot be set from System Preferences. For example, persisting windows after quitting an application and showing hidden files. Run `osx_defaults.sh` to set these settings.
@@ -84,7 +86,7 @@ These scripts make use of the following two repositories for setting up Terminal
 
 - https://github.com/ccorcos/atom-editor-settings
 - https://github.com/ccorcos/prezto
-
+- https://github.com/ccorcos/binaries
 
 ## PyPI
 

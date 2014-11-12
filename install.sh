@@ -59,6 +59,7 @@ brew install httpie
 # npm pacakges
 npm install -g coffee-script
 npm install -g less
+npm install -g gulp
 
 sudo easy_install pip
 sudo pip install sympy
@@ -71,3 +72,6 @@ sudo pip install -U numpy scipy scikit-learn skdata
 sudo pip install requests
 sudo pip install sphinx
 sudo pip install speedtest-cli
+
+
+sudo gem install jekyll

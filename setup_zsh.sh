@@ -16,3 +16,7 @@ done
 # change shell to zsh!
 chsh -s /bin/zsh
 # enter password
+
+# get my binaries!
+git clone https://github.com/ccorcos/binaries.git ~/bin
+
