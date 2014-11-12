@@ -75,7 +75,7 @@ Then restart the dock to see the changes:
 
     killall Dock
 
-Also, if you use jrnl, make sure you set the path, and I like to use TextEdit so set your ~/.jrnl_config JSON to `"editor": "open -W -n -a TextEdit"`
+Also, if you use jrnl, make sure you set the path, and I like to use TextEdit so set your `~/.jrnl_config JSON to `"editor": "open -W -n -a TextEdit"`
 
 
 ## Other Repos
@@ -84,3 +84,19 @@ These scripts make use of the following two repositories for setting up Terminal
 
 - https://github.com/ccorcos/atom-editor-settings
 - https://github.com/ccorcos/prezto
+
+
+## PyPI
+
+If you use pythong and upload packages you'll want to create a `~/.pypirc` file
+so you can `python setup.py upload` etc. 
+
+```
+[pypirc]
+servers = pypi
+[server-login]
+username:your_awesome_username
+password:your_awesome_password
+```
+
+
