@@ -37,6 +37,8 @@ brew cask install imageoptim
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-csv suspicious-package
 brew cask install spectacle
 # brew cask install node-webkit
+brew cask install multibit
+brew cask install gimp
 
 brew install git
 git config --global user.name "Chet Corcos"
@@ -55,6 +57,8 @@ brew install geoip
 brew install spark
 brew install httpie
 # brew install octave
+brew install youtube-dl
+brew install git-extras
 
 # npm pacakges
 npm install -g coffee-script
@@ -72,6 +76,8 @@ sudo pip install -U numpy scipy scikit-learn skdata
 sudo pip install requests
 sudo pip install sphinx
 sudo pip install speedtest-cli
+sudo pip install pip-tools 
+sudo pip install pycrypto
 
-
-sudo gem install jekyll
+#sudo gem install jekyll
+sudo gem install github-pages
