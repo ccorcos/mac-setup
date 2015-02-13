@@ -39,11 +39,17 @@ brew cask install spectacle
 # brew cask install node-webkit
 brew cask install multibit
 brew cask install gimp
+brew cask install caskroom/versions/firefoxdeveloperedition
+
+brew install mplayer
+brew install ffmpeg
+
 
 brew install git
 git config --global user.name "Chet Corcos"
 git config --global user.email "ccorcos@gmail.com"
 git config --global credential.helper osxkeychain
+git config --global push.default current
 brew cask install github
 
 brew install pandoc
@@ -78,6 +84,8 @@ sudo pip install sphinx
 sudo pip install speedtest-cli
 sudo pip install pip-tools 
 sudo pip install pycrypto
+
+sudo pip install mps-youtube
 
 #sudo gem install jekyll
 sudo gem install github-pages
