@@ -43,6 +43,9 @@ brew cask install caskroom/versions/firefoxdeveloperedition
 
 brew install mplayer
 brew install ffmpeg
+brew install neo4j
+
+brew install gnupg
 
 
 brew install git
@@ -89,3 +92,12 @@ sudo pip install mps-youtube
 
 #sudo gem install jekyll
 sudo gem install github-pages
+
+
+# docker
+brew cask install virtualbox
+brew install docker
+brew install boot2docker
+boot2docker init
+# boot2docker up
+# docker run -i -t ubuntu /bin/bash
