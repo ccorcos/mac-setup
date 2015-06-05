@@ -40,6 +40,7 @@ brew cask install spectacle
 brew cask install multibit
 brew cask install gimp
 brew cask install caskroom/versions/firefoxdeveloperedition
+brew cask install gitup
 
 brew install mplayer
 brew install ffmpeg
